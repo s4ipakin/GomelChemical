@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.14.0</Version>
+    <SymbolConfigObject version="3.5.14.30" runtimeid="3.5.14.3" libversion="3.5.14.0" compiler="3.5.14.30" lmm="3.5.14.0" profile="e!COCKPIT" settings="SupportOPCUA, LayoutCalculator=OptimizedClientSideLayoutCalculator" />
+    <ProjectInfo name="testPr" devicename="PFC200_G2_2ETH_RS_1" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application">
+      <Node name="HMI_Ons">
+        <Node name="ExhaustVent_35_A_B" type="T_BOOL" access="ReadWrite" />
+        <Node name="GasValveHSV46_120" type="T_BOOL" access="ReadWrite" />
+        <Node name="GasValveHSV47_120" type="T_BOOL" access="ReadWrite" />
+        <Node name="GasValveHSV48" type="T_BOOL" access="ReadWrite" />
+        <Node name="GasValveHSV49_120" type="T_BOOL" access="ReadWrite" />
+        <Node name="H2SO4ValveHSV205S_102" type="T_BOOL" access="ReadWrite" />
+        <Node name="IgniteFurbece_120" type="T_BOOL" access="ReadWrite" />
+        <Node name="LightAlmGranul_HL300_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="LightAlmGranul_HL300_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="LightAlmReact_100_HL300_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="NH3valve_HZSV140" type="T_BOOL" access="ReadWrite" />
+        <Node name="SoundAlm_HA1" type="T_BOOL" access="ReadWrite" />
+        <Node name="SoundAlm_HA2" type="T_BOOL" access="ReadWrite" />
+        <Node name="SoundAlmGranul_HA300_1" type="T_BOOL" access="ReadWrite" />
+        <Node name="SoundAlmGranul_HA300_2" type="T_BOOL" access="ReadWrite" />
+        <Node name="SoundAlmReact_100_HA300_3" type="T_BOOL" access="ReadWrite" />
+        <Node name="Vent_35A_35B" type="T_BOOL" access="ReadWrite" />
+      </Node>
+      <Node name="HMI_Sensors">
+        <Node name="HN3ConcInAirInGranul_QZIRA3_1" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressBeforeTubeReact_100_1_PZIRA2_2" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressBeforeTubeReact_100_PZIRA2_1" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressInZech_PZIRA1_1" type="T_REAL" access="ReadWrite" />
+      </Node>
+      <Node name="HMI_Settings">
+        <Node name="HN3ConcInAirInGranul_QZIRA3_1_CalCoef" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3ConcInAirInGranul_QZIRA3_1_Offset" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressBeforeTubeReact_100_1_PZIRA2_2_CalCoef" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressBeforeTubeReact_100_1_PZIRA2_2_Offset" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressBeforeTubeReact_100_PZIRA2_1_CalCoef" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressBeforeTubeReact_100_PZIRA2_1_Offset" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressInZech_PZIRA1_1_CalCoef" type="T_REAL" access="ReadWrite" />
+        <Node name="HN3PressInZech_PZIRA1_1_Offset" type="T_REAL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>

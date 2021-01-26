@@ -1,0 +1,669 @@
+//CoDeSys Mapping Export V1.2;;;;;
+//Mapped variable;//Parameter name @ counter in device;//Unit;//Description;//IEC address;//Device name
+//Important: change only first, third or fourth column in Excel or add variable name before first ;;;;;
+;K-BUS diagnostics;;K-BUS diagnostics;%IB0;Kbus
+;K-BUS error;;K-BUS general error flag;%IX0.0;Kbus
+;_IN;;Input Channels;%IW1;_16DI_24_VDC_3ms
+Application.DI._DI_GasFurnaceMinLevelAlm;_IN@1;;Digital input;%IX2.0;_16DI_24_VDC_3ms
+Application.DI._DI_BunkerMaxLevel_88_2;_IN@2;;Digital input;%IX2.1;_16DI_24_VDC_3ms
+Application.DI._DI_BunkerMaxLevel_88_1;_IN@3;;Digital input;%IX2.2;_16DI_24_VDC_3ms
+Application.DI._DI_BunkerMaxLevel_70_1;_IN@4;;Digital input;%IX2.3;_16DI_24_VDC_3ms
+Application.DI._DI_BunkerMaxLevel_70_2;_IN@5;;Digital input;%IX2.4;_16DI_24_VDC_3ms
+Application.DI._DI_BunkerMaxLevel_86;_IN@6;;Digital input;%IX2.5;_16DI_24_VDC_3ms
+Application.DI._DI_ElevatorMaxLevel_54;_IN@7;;Digital input;%IX2.6;_16DI_24_VDC_3ms
+Application.DI._DI_OvenMaxLevel_58_1;_IN@8;;Digital input;%IX2.7;_16DI_24_VDC_3ms
+Application.DI._DI_ElevatorMaxLevel_214_1;_IN@9;;Digital input;%IX3.0;_16DI_24_VDC_3ms
+Application.DI._DI_MainBurnerFire_120;_IN@10;;Digital input;%IX3.1;_16DI_24_VDC_3ms
+Application.DI._DI_IgnitionBurnerFire_120;_IN@11;;Digital input;%IX3.2;_16DI_24_VDC_3ms
+Application.DI._DI_SupplierMotorWork_57_1;_IN@12;;Digital input;%IX3.3;_16DI_24_VDC_3ms
+Application.DI._DI_SupplierMotorAlm_57_1;_IN@13;;Digital input;%IX3.4;_16DI_24_VDC_3ms
+Application.DI._DI_SupplierMotorWork_57_2;_IN@14;;Digital input;%IX3.5;_16DI_24_VDC_3ms
+Application.DI._DI_SupplierMotorAlm_57_2;_IN@15;;Digital input;%IX3.6;_16DI_24_VDC_3ms
+Application.DI._DI_SupplierMotorWork_71_1;_IN@16;;Digital input;%IX3.7;_16DI_24_VDC_3ms
+;_IN;;Input Channels;%IW2;_16DI_24_VDC_3ms_1
+Application.DI._DI_SupplierMotorAlm_71_1;_IN@1;;Digital input;%IX4.0;_16DI_24_VDC_3ms_1
+Application.DI._DI_SupplierMotorWork_71_2;_IN@2;;Digital input;%IX4.1;_16DI_24_VDC_3ms_1
+Application.DI._DI_SupplierMotorAlm_71_2;_IN@3;;Digital input;%IX4.2;_16DI_24_VDC_3ms_1
+Application.DI._DI_SupplierMotorWork_87_1;_IN@4;;Digital input;%IX4.3;_16DI_24_VDC_3ms_1
+Application.DI._DI_SupplierMotorAlm_87_1;_IN@5;;Digital input;%IX4.4;_16DI_24_VDC_3ms_1
+Application.DI._DI_DryerDrumMotorNotWorking_45_53;_IN@6;;Digital input;%IX4.5;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_Bypass_1;_IN@7;;Digital input;%IX4.6;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_Battery_1;_IN@8;;Digital input;%IX4.7;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_BatteryDischarge_1;_IN@9;;Digital input;%IX5.0;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_Alm_1;_IN@10;;Digital input;%IX5.1;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_Bypass_2;_IN@11;;Digital input;%IX5.2;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_Battery_2;_IN@12;;Digital input;%IX5.3;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_BatteryDischarge_2;_IN@13;;Digital input;%IX5.4;_16DI_24_VDC_3ms_1
+Application.DI._DI_UPS_Alm_2;_IN@14;;Digital input;%IX5.5;_16DI_24_VDC_3ms_1
+Application.DI._DI_PowerRackVoltageOn_1;_IN@15;;Digital input;%IX5.6;_16DI_24_VDC_3ms_1
+Application.DI._DI_PowerRackVoltageOn_2;_IN@16;;Digital input;%IX5.7;_16DI_24_VDC_3ms_1
+;_IN;;Input Channels;%IW3;_16DI_24_VDC_3ms_2
+Application.DI._DI_PowerRackAlmStop_1;_IN@1;;Digital input;%IX6.0;_16DI_24_VDC_3ms_2
+Application.DI._DI_PowerRackAlmStop_2;_IN@2;;Digital input;%IX6.1;_16DI_24_VDC_3ms_2
+Application.DI._DI_SubPumpWorking_25_1B;_IN@3;;Digital input;%IX6.2;_16DI_24_VDC_3ms_2
+Application.DI._DI_AntiCackPumpWorking_81_1;_IN@4;;Digital input;%IX6.3;_16DI_24_VDC_3ms_2
+Application.DI._DI_AntiCackPumpWorking_81_2;_IN@5;;Digital input;%IX6.4;_16DI_24_VDC_3ms_2
+Application.DI._DI_AntiCackPumpWorking_82_1;_IN@6;;Digital input;%IX6.5;_16DI_24_VDC_3ms_2
+Application.DI._DI_AntiCackPumpWorking_82_2;_IN@7;;Digital input;%IX6.6;_16DI_24_VDC_3ms_2
+Application.DI._DI_SubPumpWorking_102_B;_IN@8;;Digital input;%IX6.7;_16DI_24_VDC_3ms_2
+;_IN@9;;Digital input;%IX7.0;_16DI_24_VDC_3ms_2
+;_IN@10;;Digital input;%IX7.1;_16DI_24_VDC_3ms_2
+;_IN@11;;Digital input;%IX7.2;_16DI_24_VDC_3ms_2
+;_IN@12;;Digital input;%IX7.3;_16DI_24_VDC_3ms_2
+;_IN@13;;Digital input;%IX7.4;_16DI_24_VDC_3ms_2
+;_IN@14;;Digital input;%IX7.5;_16DI_24_VDC_3ms_2
+;_IN@15;;Digital input;%IX7.6;_16DI_24_VDC_3ms_2
+;_IN@16;;Digital input;%IX7.7;_16DI_24_VDC_3ms_2
+;_IN;;Input Channels;%IW4;_16DI_24_VDC_3ms_3
+;_IN@1;;Digital input;%IX8.0;_16DI_24_VDC_3ms_3
+;_IN@2;;Digital input;%IX8.1;_16DI_24_VDC_3ms_3
+;_IN@3;;Digital input;%IX8.2;_16DI_24_VDC_3ms_3
+;_IN@4;;Digital input;%IX8.3;_16DI_24_VDC_3ms_3
+;_IN@5;;Digital input;%IX8.4;_16DI_24_VDC_3ms_3
+;_IN@6;;Digital input;%IX8.5;_16DI_24_VDC_3ms_3
+;_IN@7;;Digital input;%IX8.6;_16DI_24_VDC_3ms_3
+;_IN@8;;Digital input;%IX8.7;_16DI_24_VDC_3ms_3
+;_IN@9;;Digital input;%IX9.0;_16DI_24_VDC_3ms_3
+;_IN@10;;Digital input;%IX9.1;_16DI_24_VDC_3ms_3
+;_IN@11;;Digital input;%IX9.2;_16DI_24_VDC_3ms_3
+;_IN@12;;Digital input;%IX9.3;_16DI_24_VDC_3ms_3
+;_IN@13;;Digital input;%IX9.4;_16DI_24_VDC_3ms_3
+;_IN@14;;Digital input;%IX9.5;_16DI_24_VDC_3ms_3
+;_IN@15;;Digital input;%IX9.6;_16DI_24_VDC_3ms_3
+;_IN@16;;Digital input;%IX9.7;_16DI_24_VDC_3ms_3
+;_IN;;Input Channels;%IW5;_16DI_24_VDC_3ms_4
+;_IN@1;;Digital input;%IX10.0;_16DI_24_VDC_3ms_4
+;_IN@2;;Digital input;%IX10.1;_16DI_24_VDC_3ms_4
+;_IN@3;;Digital input;%IX10.2;_16DI_24_VDC_3ms_4
+;_IN@4;;Digital input;%IX10.3;_16DI_24_VDC_3ms_4
+;_IN@5;;Digital input;%IX10.4;_16DI_24_VDC_3ms_4
+;_IN@6;;Digital input;%IX10.5;_16DI_24_VDC_3ms_4
+;_IN@7;;Digital input;%IX10.6;_16DI_24_VDC_3ms_4
+;_IN@8;;Digital input;%IX10.7;_16DI_24_VDC_3ms_4
+;_IN@9;;Digital input;%IX11.0;_16DI_24_VDC_3ms_4
+;_IN@10;;Digital input;%IX11.1;_16DI_24_VDC_3ms_4
+;_IN@11;;Digital input;%IX11.2;_16DI_24_VDC_3ms_4
+;_IN@12;;Digital input;%IX11.3;_16DI_24_VDC_3ms_4
+;_IN@13;;Digital input;%IX11.4;_16DI_24_VDC_3ms_4
+;_IN@14;;Digital input;%IX11.5;_16DI_24_VDC_3ms_4
+;_IN@15;;Digital input;%IX11.6;_16DI_24_VDC_3ms_4
+;_IN@16;;Digital input;%IX11.7;_16DI_24_VDC_3ms_4
+;_OUT;;Output Channels;%QW0;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStart_57_1;_OUT@1;;Digital output;%QX0.0;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStop_57_1;_OUT@2;;Digital output;%QX0.1;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStart_57_2;_OUT@3;;Digital output;%QX0.2;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStop_57_2;_OUT@4;;Digital output;%QX0.3;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStart_71_1;_OUT@5;;Digital output;%QX0.4;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStop_71_1;_OUT@6;;Digital output;%QX0.5;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStart_71_2;_OUT@7;;Digital output;%QX0.6;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStop_71_2;_OUT@8;;Digital output;%QX0.7;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStart_81_1;_OUT@9;;Digital output;%QX1.0;_16DO_24_VDC_0_5A
+Application._DO._DO_SupplyStop_81_1;_OUT@10;;Digital output;%QX1.1;_16DO_24_VDC_0_5A
+Application._DO._DO_MaxLevel_70_1_70_2_Stp_Elv8_Cvr5_6A;_OUT@11;;Digital output;%QX1.2;_16DO_24_VDC_0_5A
+Application._DO._DO_MaxLevel_86_Stp_Elv8_Cvr5_7;_OUT@12;;Digital output;%QX1.3;_16DO_24_VDC_0_5A
+Application._DO._DO_MinLevel_49_Stp_Pump_50;_OUT@13;;Digital output;%QX1.4;_16DO_24_VDC_0_5A
+Application._DO._DO_MaxLevel_49_Stp_Pump_50;_OUT@14;;Digital output;%QX1.5;_16DO_24_VDC_0_5A
+Application._DO._DO_MinLevel_67_Stp_Pump_68;_OUT@15;;Digital output;%QX1.6;_16DO_24_VDC_0_5A
+Application._DO._DO_MaxLevel_67_Stp_Pump_68;_OUT@16;;Digital output;%QX1.7;_16DO_24_VDC_0_5A
+;_OUT;;Output Channels;%QW1;_16DO_24_VDC_0_5A_1
+Application._DO._DO_MinLevel_67_Stp_Pump_68_1;_OUT@1;;Digital output;%QX2.0;_16DO_24_VDC_0_5A_1
+Application._DO._DO_MaxLevel_67_Stp_Pump_68_1;_OUT@2;;Digital output;%QX2.1;_16DO_24_VDC_0_5A_1
+Application._DO._DO_MinLevel_103_1_Stp_Pump_103_1A;_OUT@3;;Digital output;%QX2.2;_16DO_24_VDC_0_5A_1
+Application._DO._DO_MinLevelL1_103_1_Stp_Pump_103_1B;_OUT@4;;Digital output;%QX2.3;_16DO_24_VDC_0_5A_1
+Application._DO._DO_MinLevelL2_103_1_Stp_Pump_103_1B;_OUT@5;;Digital output;%QX2.4;_16DO_24_VDC_0_5A_1
+;_OUT@6;;Digital output;%QX2.5;_16DO_24_VDC_0_5A_1
+;_OUT@7;;Digital output;%QX2.6;_16DO_24_VDC_0_5A_1
+;_OUT@8;;Digital output;%QX2.7;_16DO_24_VDC_0_5A_1
+;_OUT@9;;Digital output;%QX3.0;_16DO_24_VDC_0_5A_1
+;_OUT@10;;Digital output;%QX3.1;_16DO_24_VDC_0_5A_1
+;_OUT@11;;Digital output;%QX3.2;_16DO_24_VDC_0_5A_1
+;_OUT@12;;Digital output;%QX3.3;_16DO_24_VDC_0_5A_1
+;_OUT@13;;Digital output;%QX3.4;_16DO_24_VDC_0_5A_1
+;_OUT@14;;Digital output;%QX3.5;_16DO_24_VDC_0_5A_1
+;_OUT@15;;Digital output;%QX3.6;_16DO_24_VDC_0_5A_1
+;_OUT@16;;Digital output;%QX3.7;_16DO_24_VDC_0_5A_1
+;_OUT;;Output Channels;%QW2;_16DO_24_VDC_0_5A_2
+;_OUT@1;;Digital output;%QX4.0;_16DO_24_VDC_0_5A_2
+;_OUT@2;;Digital output;%QX4.1;_16DO_24_VDC_0_5A_2
+;_OUT@3;;Digital output;%QX4.2;_16DO_24_VDC_0_5A_2
+;_OUT@4;;Digital output;%QX4.3;_16DO_24_VDC_0_5A_2
+;_OUT@5;;Digital output;%QX4.4;_16DO_24_VDC_0_5A_2
+;_OUT@6;;Digital output;%QX4.5;_16DO_24_VDC_0_5A_2
+;_OUT@7;;Digital output;%QX4.6;_16DO_24_VDC_0_5A_2
+;_OUT@8;;Digital output;%QX4.7;_16DO_24_VDC_0_5A_2
+;_OUT@9;;Digital output;%QX5.0;_16DO_24_VDC_0_5A_2
+;_OUT@10;;Digital output;%QX5.1;_16DO_24_VDC_0_5A_2
+;_OUT@11;;Digital output;%QX5.2;_16DO_24_VDC_0_5A_2
+;_OUT@12;;Digital output;%QX5.3;_16DO_24_VDC_0_5A_2
+;_OUT@13;;Digital output;%QX5.4;_16DO_24_VDC_0_5A_2
+;_OUT@14;;Digital output;%QX5.5;_16DO_24_VDC_0_5A_2
+;_OUT@15;;Digital output;%QX5.6;_16DO_24_VDC_0_5A_2
+;_OUT@16;;Digital output;%QX5.7;_16DO_24_VDC_0_5A_2
+Application.AI._AI_TgasBeforeDryerDrum_45;_PW 1;;Input value signed 1;%IW6;_8AI_0_4_20mA_SE
+Application.AI._AI_TgasAfterDryerDrum_45;_PW 2;;Input value signed 2;%IW7;_8AI_0_4_20mA_SE
+Application.AI._AI_TgasFurnace_120;_PW 3;;Input value signed 3;%IW8;_8AI_0_4_20mA_SE
+Application.AI._AI_TproductAfterDryerDrum_45;_PW 4;;Input value signed 4;%IW9;_8AI_0_4_20mA_SE
+Application.AI._AI_TairCooler;_PW 5;;Input value signed 5;%IW10;_8AI_0_4_20mA_SE
+Application.AI._AI_TairAfterDrumCond_76;_PW 6;;Input value signed 6;%IW11;_8AI_0_4_20mA_SE
+Application.AI._AI_Tvent_53_3_1;_PW 7;;Input value signed 7;%IW12;_8AI_0_4_20mA_SE
+Application.AI._AI_Tvent_53_3_2;_PW 8;;Input value signed 8;%IW13;_8AI_0_4_20mA_SE
+Application.AI._AI_Tvent_53_2_1;_PW 1;;Input value signed 1;%IW14;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_53_2_2;_PW 2;;Input value signed 2;%IW15;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_53_1_1;_PW 3;;Input value signed 3;%IW16;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_53_1_2;_PW 4;;Input value signed 4;%IW17;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_65_0_1;_PW 5;;Input value signed 5;%IW18;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_65_0_2;_PW 6;;Input value signed 6;%IW19;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_65_1_1;_PW 7;;Input value signed 7;%IW20;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_65_1_2;_PW 8;;Input value signed 8;%IW21;_8AI_0_4_20mA_SE_1
+Application.AI._AI_Tvent_65_2_1;_PW 1;;Input value signed 1;%IW22;_8AI_0_4_20mA_SE_2
+Application.AI._AI_Tvent_65_2_2;_PW 2;;Input value signed 2;%IW23;_8AI_0_4_20mA_SE_2
+Application.AI._AI_Tretur_61;_PW 3;;Input value signed 3;%IW24;_8AI_0_4_20mA_SE_2
+Application.AI._AI_Ttank_103_1;_PW 4;;Input value signed 4;%IW25;_8AI_0_4_20mA_SE_2
+Application.AI._AI_AirPressureBeforeBurner;_PW 5;;Input value signed 5;%IW26;_8AI_0_4_20mA_SE_2
+Application.AI._AI_AirFirstPressureBeforeFurnace_120;_PW 6;;Input value signed 6;%IW27;_8AI_0_4_20mA_SE_2
+Application.AI._AI_AirSecondPressureBeforeFurnace_120;_PW 7;;Input value signed 7;%IW28;_8AI_0_4_20mA_SE_2
+Application.AI._AI_PCV22Pos;_PW 8;;Input value signed 8;%IW29;_8AI_0_4_20mA_SE_2
+Application.AI._AI_UnderPresFurnace_120;_PW 1;;Input value signed 1;%IW30;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresGranul_31;_PW 2;;Input value signed 2;%IW31;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresDryerDrum_45;_PW 3;;Input value signed 3;%IW32;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresCooler_63_1;_PW 4;;Input value signed 4;%IW33;_8AI_0_4_20mA_SE_3
+Application.AI._AI_PressureKiPA;_PW 5;;Input value signed 5;%IW34;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresBeforeAbsorbAKT_37;_PW 6;;Input value signed 6;%IW35;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresAfterAbsorbAKT_37;_PW 7;;Input value signed 7;%IW36;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresAfterAPS_48;_PW 8;;Input value signed 8;%IW37;_8AI_0_4_20mA_SE_3
+Application.AI._AI_UnderPresBeforeHydroCycl_21;_PW 1;;Input value signed 1;%IW38;_8AI_0_4_20mA_SE_4
+Application.AI._AI_UnderPresAfterHydroCycl_21;_PW 2;;Input value signed 2;%IW39;_8AI_0_4_20mA_SE_4
+Application.AI._AI_UnderPresSalex_211;_PW 3;;Input value signed 3;%IW40;_8AI_0_4_20mA_SE_4
+Application.AI._AI_AbsorbConsumInHydroCycl_21;_PW 4;;Input value signed 4;%IW41;_8AI_0_4_20mA_SE_4
+Application.AI._AI_AbsorbConsumBeforeHydroCycl_21;_PW 5;;Input value signed 5;%IW42;_8AI_0_4_20mA_SE_4
+Application.AI._AI_GasConsumBeforeBurner;_PW 6;;Input value signed 6;%IW43;_8AI_0_4_20mA_SE_4
+Application.AI._AI_FCV16Pos;_PW 7;;Input value signed 7;%IW44;_8AI_0_4_20mA_SE_4
+Application.AI._AI_AirConsumeFurnace_120;_PW 8;;Input value signed 8;%IW45;_8AI_0_4_20mA_SE_4
+Application.AI._AI_FCV18Pos;_PW 1;;Input value signed 1;%IW46;_8AI_0_4_20mA_SE_5
+Application.AI._AI_ReturConsumGranul_31;_PW 2;;Input value signed 2;%IW47;_8AI_0_4_20mA_SE_5
+Application.AI._AI_AbsorLiquidConsumbAKT_37_FT100;_PW 3;;Input value signed 3;%IW48;_8AI_0_4_20mA_SE_5
+Application.AI._AI_WaterConsumAbsorbSystem;_PW 4;;Input value signed 4;%IW49;_8AI_0_4_20mA_SE_5
+Application.AI._AI_AbsorLiquidScuber_66_12;_PW 5;;Input value signed 5;%IW50;_8AI_0_4_20mA_SE_5
+Application.AI._AI_AbsorLiquidTank_103_1;_PW 6;;Input value signed 6;%IW51;_8AI_0_4_20mA_SE_5
+Application.AI._AI_FCV113;_PW 7;;Input value signed 7;%IW52;_8AI_0_4_20mA_SE_5
+Application.AI._AI_ConsumBeforeScrubber_66_1;_PW 8;;Input value signed 8;%IW53;_8AI_0_4_20mA_SE_5
+Application.AI._AI_ConsumInAPS_48;_PW 1;;Input value signed 1;%IW54;_8AI_0_4_20mA_SE_6
+Application.AI._AI_ConsumH2SO4_102_to_35;_PW 2;;Input value signed 2;%IW55;_8AI_0_4_20mA_SE_6
+Application.AI._AI_ConsumH2SO4_102_to_103;_PW 3;;Input value signed 3;%IW56;_8AI_0_4_20mA_SE_6
+Application.AI._AI_AbsorLiquidConsumbAKT_37_FT132;_PW 4;;Input value signed 4;%IW57;_8AI_0_4_20mA_SE_6
+Application.AI._AI_Consum_H3PO4;_PW 5;;Input value signed 5;%IW58;_8AI_0_4_20mA_SE_6
+Application.AI._AI_ConsumH2SO4;_PW 6;;Input value signed 6;%IW59;_8AI_0_4_20mA_SE_6
+Application.AI._AI_ConsumPressedAirToZech;_PW 7;;Input value signed 7;%IW60;_8AI_0_4_20mA_SE_6
+Application.AI._AI_ConsumChlKToGran_FQUIR_12_31;_PW 8;;Input value signed 8;%IW61;_8AI_0_4_20mA_SE_6
+Application.AI._AI_ConsumKarbanToGran_31;_PW 1;;Input value signed 1;%IW62;_8AI_0_4_20mA_SE_7
+Application.AI._AI_ConsumChlKToGran_FQUIR_17_31;_PW 2;;Input value signed 2;%IW63;_8AI_0_4_20mA_SE_7
+Application.AI._AI_ConsumMicroAddToGran_31_FQUIR_57_1;_PW 3;;Input value signed 3;%IW64;_8AI_0_4_20mA_SE_7
+Application.AI._AI_ConsumMicroAddToGran_31_FQUIR_57_2;_PW 4;;Input value signed 4;%IW65;_8AI_0_4_20mA_SE_7
+Application.AI._AI_OilLevel_78;_PW 5;;Input value signed 5;%IW66;_8AI_0_4_20mA_SE_7
+Application.AI._AI_CycleTankLevel_49;_PW 6;;Input value signed 6;%IW67;_8AI_0_4_20mA_SE_7
+Application.AI._AI_LCV101Pos;_PW 7;;Input value signed 7;%IW68;_8AI_0_4_20mA_SE_7
+Application.AI._AI_CollectorTankLevel_35;_PW 8;;Input value signed 8;%IW69;_8AI_0_4_20mA_SE_7
+Application.AI._AI_CycleTankLevel_67;_PW 1;;Input value signed 1;%IW70;_8AI_0_4_20mA_SE_8
+Application.AI._AI_CollectorTankLevel_103_1;_PW 2;;Input value signed 2;%IW71;_8AI_0_4_20mA_SE_8
+Application.AI._AI_ReceivTankH3PO4level_41;_PW 3;;Input value signed 3;%IW72;_8AI_0_4_20mA_SE_8
+Application.AI._AI_ReceivTankH3PO4level_39;_PW 4;;Input value signed 4;%IW73;_8AI_0_4_20mA_SE_8
+Application.AI._AI_SupplyTankH3PO4level_25;_PW 5;;Input value signed 5;%IW74;_8AI_0_4_20mA_SE_8
+Application.AI._AI_LCV203Pos;_PW 6;;Input value signed 6;%IW75;_8AI_0_4_20mA_SE_8
+Application.AI._AI_TankH2SO4Level_102;_PW 7;;Input value signed 7;%IW76;_8AI_0_4_20mA_SE_8
+Application.AI._AI_SupplyTankH2SO4Level_102_a;_PW 8;;Input value signed 8;%IW77;_8AI_0_4_20mA_SE_8
+Application.AI._AI_LCV206Pos;_PW 1;;Input value signed 1;%IW78;_8AI_0_4_20mA_SE_9
+Application.AI._AI_pH_CollectorTank_35;_PW 2;;Input value signed 2;%IW79;_8AI_0_4_20mA_SE_9
+Application.AI._AI_ACV104Pos;_PW 3;;Input value signed 3;%IW80;_8AI_0_4_20mA_SE_9
+Application.AI._AI_pH_CyclTank_49;_PW 4;;Input value signed 4;%IW81;_8AI_0_4_20mA_SE_9
+Application.AI._AI_ACV112Pos;_PW 5;;Input value signed 5;%IW82;_8AI_0_4_20mA_SE_9
+Application.AI._AI_pH_CollectorTank_103_1;_PW 6;;Input value signed 6;%IW83;_8AI_0_4_20mA_SE_9
+Application.AI._AI_ACV115Pos;_PW 7;;Input value signed 7;%IW84;_8AI_0_4_20mA_SE_9
+Application.AI._AI_OutAirWetness;_PW 8;;Input value signed 8;%IW85;_8AI_0_4_20mA_SE_9
+Application.AI._AI_DryerRoomAirWetness_45;_PW 1;;Input value signed 1;%IW86;_8AI_0_4_20mA_SE_10
+Application.AI._AI_IssuedProductWeight_203;_PW 2;;Input value signed 2;%IW87;_8AI_0_4_20mA_SE_10
+Application.AI._AI_TubeReactorTemp_100_TE9;_PW 3;;Input value signed 3;%IW88;_8AI_0_4_20mA_SE_10
+Application.AI._AI_AntiCackTempInReceiveTank_81;_PW 4;;Input value signed 4;%IW89;_8AI_0_4_20mA_SE_10
+Application.AI._AI_TCV302Pos;_PW 5;;Input value signed 5;%IW90;_8AI_0_4_20mA_SE_10
+Application.AI._AI_AntiCackTempInSupplyTank_81_TT303;_PW 6;;Input value signed 6;%IW91;_8AI_0_4_20mA_SE_10
+Application.AI._AI_TCV303Pos;_PW 7;;Input value signed 7;%IW92;_8AI_0_4_20mA_SE_10
+Application.AI._AI_TubeReactorTemp_100_TE304;_PW 8;;Input value signed 8;%IW93;_8AI_0_4_20mA_SE_10
+Application.AI._AI_H2SO4_PressureBeforeTubeReactor_100;_PW 1;;Input value signed 1;%IW94;_8AI_0_4_20mA_SE_11
+Application.AI._AI_H3PO4_PressureBeforeTubeReactor_100;_PW 2;;Input value signed 2;%IW95;_8AI_0_4_20mA_SE_11
+Application.AI._AI_AcidWaistPressure_100;_PW 3;;Input value signed 3;%IW96;_8AI_0_4_20mA_SE_11
+Application.AI._AI_H2SO4_PressureBeforeTubeReactor_100_1;_PW 4;;Input value signed 4;%IW97;_8AI_0_4_20mA_SE_11
+Application.AI._AI_H3PO4_PressureBeforeTubeReactor_100_1;_PW 5;;Input value signed 5;%IW98;_8AI_0_4_20mA_SE_11
+Application.AI._AI_AcidWaistPressure_100_1;_PW 6;;Input value signed 6;%IW99;_8AI_0_4_20mA_SE_11
+Application.AI._AI_H2SO4ConsumTubeReactor_100;_PW 7;;Input value signed 7;%IW100;_8AI_0_4_20mA_SE_11
+Application.AI._AI_FCV3Pos;_PW 8;;Input value signed 8;%IW101;_8AI_0_4_20mA_SE_11
+Application.AI._AI_H3PO4ConsumTubeReactor_100;_PW 1;;Input value signed 1;%IW102;_8AI_0_4_20mA_SE_12
+Application.AI._AI_FCV4Pos;_PW 2;;Input value signed 2;%IW103;_8AI_0_4_20mA_SE_12
+Application.AI._AI_AcidWaistConsume_100;_PW 3;;Input value signed 3;%IW104;_8AI_0_4_20mA_SE_12
+Application.AI._AI_FCV5Pos;_PW 4;;Input value signed 4;%IW105;_8AI_0_4_20mA_SE_12
+Application.AI._AI_FCV10Pos;_PW 5;;Input value signed 5;%IW106;_8AI_0_4_20mA_SE_12
+Application.AI._AI_FCV214Pos;_PW 6;;Input value signed 6;%IW107;_8AI_0_4_20mA_SE_12
+Application.AI._AI_FCV341Pos;_PW 7;;Input value signed 7;%IW108;_8AI_0_4_20mA_SE_12
+Application.AI._AI_FCV342Pos;_PW 8;;Input value signed 8;%IW109;_8AI_0_4_20mA_SE_12
+Application.AI._AI_H2SO4ConsumTubeReactor_100_1;_PW 1;;Input value signed 1;%IW110;_8AI_0_4_20mA_SE_13
+Application.AI._AI_FCV343Pos;_PW 2;;Input value signed 2;%IW111;_8AI_0_4_20mA_SE_13
+Application.AI._AI_H3PO4ConsumTubeReactor_100_1;_PW 3;;Input value signed 3;%IW112;_8AI_0_4_20mA_SE_13
+Application.AI._AI_FCV344Pos;_PW 4;;Input value signed 4;%IW113;_8AI_0_4_20mA_SE_13
+Application.AI._AI_AcidWaistConsume_100_1;_PW 5;;Input value signed 5;%IW114;_8AI_0_4_20mA_SE_13
+Application.AI._AI_FCV345Pos;_PW 6;;Input value signed 6;%IW115;_8AI_0_4_20mA_SE_13
+Application.AI._AI_FCV346Pos;_PW 7;;Input value signed 7;%IW116;_8AI_0_4_20mA_SE_13
+Application.AI._AI_AntiCackLevelInReceivTank_81;_PW 8;;Input value signed 8;%IW117;_8AI_0_4_20mA_SE_13
+Application.AI._AI_AntiCackLevelInSupplyTank_82;_PW 1;;Input value signed 1;%IW118;_8AI_0_4_20mA_SE_14
+Application.AI._AI_SubPumpCurrent_102_B;_PW 2;;Input value signed 2;%IW119;_8AI_0_4_20mA_SE_14
+Application.AI._AI_SubPumpCurrent_103_1B;_PW 3;;Input value signed 3;%IW120;_8AI_0_4_20mA_SE_14
+;_PW 4;;Input value signed 4;%IW121;_8AI_0_4_20mA_SE_14
+;_PW 5;;Input value signed 5;%IW122;_8AI_0_4_20mA_SE_14
+;_PW 6;;Input value signed 6;%IW123;_8AI_0_4_20mA_SE_14
+;_PW 7;;Input value signed 7;%IW124;_8AI_0_4_20mA_SE_14
+;_PW 8;;Input value signed 8;%IW125;_8AI_0_4_20mA_SE_14
+;_PW 1;;Input value signed 1;%IW126;_8AI_0_4_20mA_SE_15
+;_PW 2;;Input value signed 2;%IW127;_8AI_0_4_20mA_SE_15
+;_PW 3;;Input value signed 3;%IW128;_8AI_0_4_20mA_SE_15
+;_PW 4;;Input value signed 4;%IW129;_8AI_0_4_20mA_SE_15
+;_PW 5;;Input value signed 5;%IW130;_8AI_0_4_20mA_SE_15
+;_PW 6;;Input value signed 6;%IW131;_8AI_0_4_20mA_SE_15
+;_PW 7;;Input value signed 7;%IW132;_8AI_0_4_20mA_SE_15
+;_PW 8;;Input value signed 8;%IW133;_8AI_0_4_20mA_SE_15
+;_PW 1;;Input value signed 1;%IW134;_8AI_0_4_20mA_SE_16
+;_PW 2;;Input value signed 2;%IW135;_8AI_0_4_20mA_SE_16
+;_PW 3;;Input value signed 3;%IW136;_8AI_0_4_20mA_SE_16
+;_PW 4;;Input value signed 4;%IW137;_8AI_0_4_20mA_SE_16
+;_PW 5;;Input value signed 5;%IW138;_8AI_0_4_20mA_SE_16
+;_PW 6;;Input value signed 6;%IW139;_8AI_0_4_20mA_SE_16
+;_PW 7;;Input value signed 7;%IW140;_8AI_0_4_20mA_SE_16
+;_PW 8;;Input value signed 8;%IW141;_8AI_0_4_20mA_SE_16
+;_PW 1;;Input value signed 1;%IW142;_8AI_0_4_20mA_SE_17
+;_PW 2;;Input value signed 2;%IW143;_8AI_0_4_20mA_SE_17
+;_PW 3;;Input value signed 3;%IW144;_8AI_0_4_20mA_SE_17
+;_PW 4;;Input value signed 4;%IW145;_8AI_0_4_20mA_SE_17
+;_PW 5;;Input value signed 5;%IW146;_8AI_0_4_20mA_SE_17
+;_PW 6;;Input value signed 6;%IW147;_8AI_0_4_20mA_SE_17
+;_PW 7;;Input value signed 7;%IW148;_8AI_0_4_20mA_SE_17
+;_PW 8;;Input value signed 8;%IW149;_8AI_0_4_20mA_SE_17
+;_PW 1;;Input value signed 1;%IW150;_8AI_0_4_20mA_SE_18
+;_PW 2;;Input value signed 2;%IW151;_8AI_0_4_20mA_SE_18
+;_PW 3;;Input value signed 3;%IW152;_8AI_0_4_20mA_SE_18
+;_PW 4;;Input value signed 4;%IW153;_8AI_0_4_20mA_SE_18
+;_PW 5;;Input value signed 5;%IW154;_8AI_0_4_20mA_SE_18
+;_PW 6;;Input value signed 6;%IW155;_8AI_0_4_20mA_SE_18
+;_PW 7;;Input value signed 7;%IW156;_8AI_0_4_20mA_SE_18
+;_PW 8;;Input value signed 8;%IW157;_8AI_0_4_20mA_SE_18
+;_PW 1;;Input value signed 1;%IW158;_8AI_0_4_20mA_SE_19
+;_PW 2;;Input value signed 2;%IW159;_8AI_0_4_20mA_SE_19
+;_PW 3;;Input value signed 3;%IW160;_8AI_0_4_20mA_SE_19
+;_PW 4;;Input value signed 4;%IW161;_8AI_0_4_20mA_SE_19
+;_PW 5;;Input value signed 5;%IW162;_8AI_0_4_20mA_SE_19
+;_PW 6;;Input value signed 6;%IW163;_8AI_0_4_20mA_SE_19
+;_PW 7;;Input value signed 7;%IW164;_8AI_0_4_20mA_SE_19
+;_PW 8;;Input value signed 8;%IW165;_8AI_0_4_20mA_SE_19
+;_PW 1;;Input value signed 1;%IW166;_8AI_0_4_20mA_SE_20
+;_PW 2;;Input value signed 2;%IW167;_8AI_0_4_20mA_SE_20
+;_PW 3;;Input value signed 3;%IW168;_8AI_0_4_20mA_SE_20
+;_PW 4;;Input value signed 4;%IW169;_8AI_0_4_20mA_SE_20
+;_PW 5;;Input value signed 5;%IW170;_8AI_0_4_20mA_SE_20
+;_PW 6;;Input value signed 6;%IW171;_8AI_0_4_20mA_SE_20
+;_PW 7;;Input value signed 7;%IW172;_8AI_0_4_20mA_SE_20
+;_PW 8;;Input value signed 8;%IW173;_8AI_0_4_20mA_SE_20
+;_PW 1;;Input value signed 1;%IW174;_8AI_0_4_20mA_SE_21
+;_PW 2;;Input value signed 2;%IW175;_8AI_0_4_20mA_SE_21
+;_PW 3;;Input value signed 3;%IW176;_8AI_0_4_20mA_SE_21
+;_PW 4;;Input value signed 4;%IW177;_8AI_0_4_20mA_SE_21
+;_PW 5;;Input value signed 5;%IW178;_8AI_0_4_20mA_SE_21
+;_PW 6;;Input value signed 6;%IW179;_8AI_0_4_20mA_SE_21
+;_PW 7;;Input value signed 7;%IW180;_8AI_0_4_20mA_SE_21
+;_PW 8;;Input value signed 8;%IW181;_8AI_0_4_20mA_SE_21
+;_PW 1;;Input value signed 1;%IW182;_8AI_0_4_20mA_SE_22
+;_PW 2;;Input value signed 2;%IW183;_8AI_0_4_20mA_SE_22
+;_PW 3;;Input value signed 3;%IW184;_8AI_0_4_20mA_SE_22
+;_PW 4;;Input value signed 4;%IW185;_8AI_0_4_20mA_SE_22
+;_PW 5;;Input value signed 5;%IW186;_8AI_0_4_20mA_SE_22
+;_PW 6;;Input value signed 6;%IW187;_8AI_0_4_20mA_SE_22
+;_PW 7;;Input value signed 7;%IW188;_8AI_0_4_20mA_SE_22
+;_PW 8;;Input value signed 8;%IW189;_8AI_0_4_20mA_SE_22
+;_INPUTCHANNEL;;Input channel;%IB380;_2AI_4_20mA_HART
+;_INPUTCHANNEL[0];;Input channel;%IB380;_2AI_4_20mA_HART
+;_INPUTCHANNEL[1];;Input channel;%IB381;_2AI_4_20mA_HART
+;_INPUTCHANNEL[2];;Input channel;%IB382;_2AI_4_20mA_HART
+;_INPUTCHANNEL[3];;Input channel;%IB383;_2AI_4_20mA_HART
+;_INPUTCHANNEL[4];;Input channel;%IB384;_2AI_4_20mA_HART
+;_INPUTCHANNEL[5];;Input channel;%IB385;_2AI_4_20mA_HART
+;_INPUTCHANNEL[6];;Input channel;%IB386;_2AI_4_20mA_HART
+;_INPUTCHANNEL[7];;Input channel;%IB387;_2AI_4_20mA_HART
+;_INPUTCHANNEL[8];;Input channel;%IB388;_2AI_4_20mA_HART
+;_INPUTCHANNEL[9];;Input channel;%IB389;_2AI_4_20mA_HART
+;_INPUTCHANNEL[10];;Input channel;%IB390;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL;;Output channel;%QB6;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[0];;Output channel;%QB6;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[1];;Output channel;%QB7;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[2];;Output channel;%QB8;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[3];;Output channel;%QB9;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[4];;Output channel;%QB10;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[5];;Output channel;%QB11;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[6];;Output channel;%QB12;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[7];;Output channel;%QB13;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[8];;Output channel;%QB14;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[9];;Output channel;%QB15;_2AI_4_20mA_HART
+;_OUTPUTCHANNEL[10];;Output channel;%QB16;_2AI_4_20mA_HART
+;_INPUTCHANNEL;;Input channel;%IB391;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[0];;Input channel;%IB391;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[1];;Input channel;%IB392;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[2];;Input channel;%IB393;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[3];;Input channel;%IB394;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[4];;Input channel;%IB395;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[5];;Input channel;%IB396;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[6];;Input channel;%IB397;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[7];;Input channel;%IB398;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[8];;Input channel;%IB399;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[9];;Input channel;%IB400;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL[10];;Input channel;%IB401;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL;;Output channel;%QB17;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[0];;Output channel;%QB17;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[1];;Output channel;%QB18;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[2];;Output channel;%QB19;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[3];;Output channel;%QB20;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[4];;Output channel;%QB21;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[5];;Output channel;%QB22;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[6];;Output channel;%QB23;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[7];;Output channel;%QB24;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[8];;Output channel;%QB25;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[9];;Output channel;%QB26;_2AI_4_20mA_HART_1
+;_OUTPUTCHANNEL[10];;Output channel;%QB27;_2AI_4_20mA_HART_1
+;_INPUTCHANNEL;;Input channel;%IB402;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[0];;Input channel;%IB402;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[1];;Input channel;%IB403;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[2];;Input channel;%IB404;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[3];;Input channel;%IB405;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[4];;Input channel;%IB406;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[5];;Input channel;%IB407;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[6];;Input channel;%IB408;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[7];;Input channel;%IB409;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[8];;Input channel;%IB410;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[9];;Input channel;%IB411;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL[10];;Input channel;%IB412;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL;;Output channel;%QB28;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[0];;Output channel;%QB28;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[1];;Output channel;%QB29;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[2];;Output channel;%QB30;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[3];;Output channel;%QB31;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[4];;Output channel;%QB32;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[5];;Output channel;%QB33;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[6];;Output channel;%QB34;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[7];;Output channel;%QB35;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[8];;Output channel;%QB36;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[9];;Output channel;%QB37;_2AI_4_20mA_HART_2
+;_OUTPUTCHANNEL[10];;Output channel;%QB38;_2AI_4_20mA_HART_2
+;_INPUTCHANNEL;;Input channel;%IB413;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[0];;Input channel;%IB413;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[1];;Input channel;%IB414;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[2];;Input channel;%IB415;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[3];;Input channel;%IB416;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[4];;Input channel;%IB417;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[5];;Input channel;%IB418;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[6];;Input channel;%IB419;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[7];;Input channel;%IB420;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[8];;Input channel;%IB421;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[9];;Input channel;%IB422;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL[10];;Input channel;%IB423;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL;;Output channel;%QB39;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[0];;Output channel;%QB39;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[1];;Output channel;%QB40;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[2];;Output channel;%QB41;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[3];;Output channel;%QB42;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[4];;Output channel;%QB43;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[5];;Output channel;%QB44;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[6];;Output channel;%QB45;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[7];;Output channel;%QB46;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[8];;Output channel;%QB47;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[9];;Output channel;%QB48;_2AI_4_20mA_HART_3
+;_OUTPUTCHANNEL[10];;Output channel;%QB49;_2AI_4_20mA_HART_3
+;_INPUTCHANNEL;;Input channel;%IB424;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[0];;Input channel;%IB424;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[1];;Input channel;%IB425;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[2];;Input channel;%IB426;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[3];;Input channel;%IB427;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[4];;Input channel;%IB428;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[5];;Input channel;%IB429;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[6];;Input channel;%IB430;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[7];;Input channel;%IB431;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[8];;Input channel;%IB432;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[9];;Input channel;%IB433;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL[10];;Input channel;%IB434;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL;;Output channel;%QB50;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[0];;Output channel;%QB50;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[1];;Output channel;%QB51;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[2];;Output channel;%QB52;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[3];;Output channel;%QB53;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[4];;Output channel;%QB54;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[5];;Output channel;%QB55;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[6];;Output channel;%QB56;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[7];;Output channel;%QB57;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[8];;Output channel;%QB58;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[9];;Output channel;%QB59;_2AI_4_20mA_HART_4
+;_OUTPUTCHANNEL[10];;Output channel;%QB60;_2AI_4_20mA_HART_4
+;_INPUTCHANNEL;;Input channel;%IB435;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[0];;Input channel;%IB435;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[1];;Input channel;%IB436;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[2];;Input channel;%IB437;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[3];;Input channel;%IB438;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[4];;Input channel;%IB439;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[5];;Input channel;%IB440;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[6];;Input channel;%IB441;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[7];;Input channel;%IB442;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[8];;Input channel;%IB443;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[9];;Input channel;%IB444;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL[10];;Input channel;%IB445;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL;;Output channel;%QB61;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[0];;Output channel;%QB61;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[1];;Output channel;%QB62;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[2];;Output channel;%QB63;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[3];;Output channel;%QB64;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[4];;Output channel;%QB65;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[5];;Output channel;%QB66;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[6];;Output channel;%QB67;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[7];;Output channel;%QB68;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[8];;Output channel;%QB69;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[9];;Output channel;%QB70;_2AI_4_20mA_HART_5
+;_OUTPUTCHANNEL[10];;Output channel;%QB71;_2AI_4_20mA_HART_5
+;_INPUTCHANNEL;;Input channel;%IB446;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[0];;Input channel;%IB446;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[1];;Input channel;%IB447;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[2];;Input channel;%IB448;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[3];;Input channel;%IB449;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[4];;Input channel;%IB450;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[5];;Input channel;%IB451;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[6];;Input channel;%IB452;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[7];;Input channel;%IB453;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[8];;Input channel;%IB454;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[9];;Input channel;%IB455;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL[10];;Input channel;%IB456;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL;;Output channel;%QB72;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[0];;Output channel;%QB72;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[1];;Output channel;%QB73;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[2];;Output channel;%QB74;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[3];;Output channel;%QB75;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[4];;Output channel;%QB76;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[5];;Output channel;%QB77;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[6];;Output channel;%QB78;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[7];;Output channel;%QB79;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[8];;Output channel;%QB80;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[9];;Output channel;%QB81;_2AI_4_20mA_HART_6
+;_OUTPUTCHANNEL[10];;Output channel;%QB82;_2AI_4_20mA_HART_6
+;_INPUTCHANNEL;;Input channel;%IB457;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[0];;Input channel;%IB457;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[1];;Input channel;%IB458;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[2];;Input channel;%IB459;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[3];;Input channel;%IB460;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[4];;Input channel;%IB461;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[5];;Input channel;%IB462;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[6];;Input channel;%IB463;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[7];;Input channel;%IB464;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[8];;Input channel;%IB465;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[9];;Input channel;%IB466;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL[10];;Input channel;%IB467;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL;;Output channel;%QB83;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[0];;Output channel;%QB83;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[1];;Output channel;%QB84;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[2];;Output channel;%QB85;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[3];;Output channel;%QB86;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[4];;Output channel;%QB87;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[5];;Output channel;%QB88;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[6];;Output channel;%QB89;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[7];;Output channel;%QB90;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[8];;Output channel;%QB91;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[9];;Output channel;%QB92;_2AI_4_20mA_HART_7
+;_OUTPUTCHANNEL[10];;Output channel;%QB93;_2AI_4_20mA_HART_7
+;_INPUTCHANNEL;;Input channel;%IB468;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[0];;Input channel;%IB468;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[1];;Input channel;%IB469;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[2];;Input channel;%IB470;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[3];;Input channel;%IB471;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[4];;Input channel;%IB472;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[5];;Input channel;%IB473;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[6];;Input channel;%IB474;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[7];;Input channel;%IB475;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[8];;Input channel;%IB476;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[9];;Input channel;%IB477;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL[10];;Input channel;%IB478;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL;;Output channel;%QB94;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[0];;Output channel;%QB94;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[1];;Output channel;%QB95;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[2];;Output channel;%QB96;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[3];;Output channel;%QB97;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[4];;Output channel;%QB98;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[5];;Output channel;%QB99;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[6];;Output channel;%QB100;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[7];;Output channel;%QB101;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[8];;Output channel;%QB102;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[9];;Output channel;%QB103;_2AI_4_20mA_HART_8
+;_OUTPUTCHANNEL[10];;Output channel;%QB104;_2AI_4_20mA_HART_8
+;_INPUTCHANNEL;;Input channel;%IB479;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[0];;Input channel;%IB479;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[1];;Input channel;%IB480;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[2];;Input channel;%IB481;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[3];;Input channel;%IB482;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[4];;Input channel;%IB483;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[5];;Input channel;%IB484;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[6];;Input channel;%IB485;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[7];;Input channel;%IB486;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[8];;Input channel;%IB487;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[9];;Input channel;%IB488;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL[10];;Input channel;%IB489;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL;;Output channel;%QB105;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[0];;Output channel;%QB105;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[1];;Output channel;%QB106;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[2];;Output channel;%QB107;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[3];;Output channel;%QB108;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[4];;Output channel;%QB109;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[5];;Output channel;%QB110;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[6];;Output channel;%QB111;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[7];;Output channel;%QB112;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[8];;Output channel;%QB113;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[9];;Output channel;%QB114;_2AI_4_20mA_HART_9
+;_OUTPUTCHANNEL[10];;Output channel;%QB115;_2AI_4_20mA_HART_9
+;_INPUTCHANNEL;;Input channel;%IB490;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[0];;Input channel;%IB490;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[1];;Input channel;%IB491;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[2];;Input channel;%IB492;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[3];;Input channel;%IB493;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[4];;Input channel;%IB494;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[5];;Input channel;%IB495;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[6];;Input channel;%IB496;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[7];;Input channel;%IB497;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[8];;Input channel;%IB498;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[9];;Input channel;%IB499;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL[10];;Input channel;%IB500;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL;;Output channel;%QB116;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[0];;Output channel;%QB116;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[1];;Output channel;%QB117;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[2];;Output channel;%QB118;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[3];;Output channel;%QB119;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[4];;Output channel;%QB120;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[5];;Output channel;%QB121;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[6];;Output channel;%QB122;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[7];;Output channel;%QB123;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[8];;Output channel;%QB124;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[9];;Output channel;%QB125;_2AI_4_20mA_HART_10
+;_OUTPUTCHANNEL[10];;Output channel;%QB126;_2AI_4_20mA_HART_10
+;_INPUTCHANNEL;;Input channel;%IB501;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[0];;Input channel;%IB501;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[1];;Input channel;%IB502;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[2];;Input channel;%IB503;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[3];;Input channel;%IB504;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[4];;Input channel;%IB505;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[5];;Input channel;%IB506;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[6];;Input channel;%IB507;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[7];;Input channel;%IB508;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[8];;Input channel;%IB509;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[9];;Input channel;%IB510;_2AI_4_20mA_HART_11
+;_INPUTCHANNEL[10];;Input channel;%IB511;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL;;Output channel;%QB127;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[0];;Output channel;%QB127;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[1];;Output channel;%QB128;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[2];;Output channel;%QB129;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[3];;Output channel;%QB130;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[4];;Output channel;%QB131;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[5];;Output channel;%QB132;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[6];;Output channel;%QB133;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[7];;Output channel;%QB134;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[8];;Output channel;%QB135;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[9];;Output channel;%QB136;_2AI_4_20mA_HART_11
+;_OUTPUTCHANNEL[10];;Output channel;%QB137;_2AI_4_20mA_HART_11
+Application.AO._AO_AirPressureBeforeFenese_120;_QW 1;;Output word 1;%QW69;_4AO_4_20mA
+Application.AO._AO_GasFlowBeforeBurner;_QW 2;;Output word 2;%QW70;_4AO_4_20mA
+Application.AO._AO_AirFlowFenese_120;_QW 3;;Output word 3;%QW71;_4AO_4_20mA
+Application.AO._AO_AbsorbLiquidTo_103_1;_QW 4;;Output word 4;%QW72;_4AO_4_20mA
+Application.AO._AO_ChlorKFlowToGranul_31_FQIR12;_QW 1;;Output word 1;%QW73;_4AO_4_20mA_1
+Application.AO._AO_KarbonFlowToGranul_31;_QW 2;;Output word 2;%QW74;_4AO_4_20mA_1
+Application.AO._AO_ChlorKFlowToGranul_31_FQIR17;_QW 3;;Output word 3;%QW75;_4AO_4_20mA_1
+Application.AO._AO_MicroAddToGranul_31_FQIR57_1;_QW 4;;Output word 4;%QW76;_4AO_4_20mA_1
+Application.AO._AO_MicroAddToGranul_31_FQIR57_2;_QW 1;;Output word 1;%QW77;_4AO_4_20mA_2
+Application.AO._AO_SetLevelCyclTank_49;_QW 2;;Output word 2;%QW78;_4AO_4_20mA_2
+Application.AO._AO_SetLevelH3PO4SupplyTank_25;_QW 3;;Output word 3;%QW79;_4AO_4_20mA_2
+Application.AO._AO_SetLevelH2SO4SupplyTank_102_a;_QW 4;;Output word 4;%QW80;_4AO_4_20mA_2
+Application.AO._AO_Set_pHCollectTank_35;_QW 1;;Output word 1;%QW81;_4AO_4_20mA_3
+Application.AO._AO_Set_pHCycleTank_49;_QW 2;;Output word 2;%QW82;_4AO_4_20mA_3
+Application.AO._AO_Set_pHCollectTank_103_1;_QW 3;;Output word 3;%QW83;_4AO_4_20mA_3
+Application.AO._AO_SetShyberVent_53_3;_QW 4;;Output word 4;%QW84;_4AO_4_20mA_3
+Application.AO._AO_SetShyberVent_53_2;_QW 1;;Output word 1;%QW85;_4AO_4_20mA_4
+Application.AO._AO_SetShyberVent_53_1;_QW 2;;Output word 2;%QW86;_4AO_4_20mA_4
+Application.AO._AO_SetShyberVent_65_0;_QW 3;;Output word 3;%QW87;_4AO_4_20mA_4
+Application.AO._AO_SetShyberVent_65_1;_QW 4;;Output word 4;%QW88;_4AO_4_20mA_4
+Application.AO._AO_SetShyberVent_65_2;_QW 1;;Output word 1;%QW89;_4AO_4_20mA_5
+Application.AO._AO_SetAntiCackTempInCollectTank_81;_QW 2;;Output word 2;%QW90;_4AO_4_20mA_5
+Application.AO._AO_SetAntiCackTempInCollectTank_82;_QW 3;;Output word 3;%QW91;_4AO_4_20mA_5
+Application.AO._AO_SetH2SO4SupplyToTubeReactor_100;_QW 4;;Output word 4;%QW92;_4AO_4_20mA_5
+Application.AO._AO_SetH3PO4SupplyToTubeReactor_100;_QW 1;;Output word 1;%QW93;_4AO_4_20mA_6
+Application.AO._AO_SetAcidWaistFlowToTubeReactor_100;_QW 2;;Output word 2;%QW94;_4AO_4_20mA_6
+Application.AO._AO_SetNH3FlowToTubeReactor_100;_QW 3;;Output word 3;%QW95;_4AO_4_20mA_6
+Application.AO._AO_SetSteamFlowToTubeReactor_100;_QW 4;;Output word 4;%QW96;_4AO_4_20mA_6
+Application.AO._AO_SetAntiCackFlawToCondDrum_76;_QW 1;;Output word 1;%QW97;_4AO_4_20mA_7
+Application.AO._AO_SetNH3FlowToTubeReactor_100_1;_QW 2;;Output word 2;%QW98;_4AO_4_20mA_7
+Application.AO._AO_SetH2SO4SupplyToTubeReactor_100_1;_QW 3;;Output word 3;%QW99;_4AO_4_20mA_7
+Application.AO._AO_SetH3PO4SupplyToTubeReactor_100_1;_QW 4;;Output word 4;%QW100;_4AO_4_20mA_7
+Application.AO._AO_SetAcidWaistFlowToTubeReactor_100_1;_QW 1;;Output word 1;%QW101;_4AO_4_20mA_8
+Application.AO._AO_SetSteamFlowToTubeReactor_100_1;_QW 2;;Output word 2;%QW102;_4AO_4_20mA_8
+;_QW 3;;Output word 3;%QW103;_4AO_4_20mA_8
+;_QW 4;;Output word 4;%QW104;_4AO_4_20mA_8
+;_QW 1;;Output word 1;%QW105;_4AO_4_20mA_9
+;_QW 2;;Output word 2;%QW106;_4AO_4_20mA_9
+;_QW 3;;Output word 3;%QW107;_4AO_4_20mA_9
+;_QW 4;;Output word 4;%QW108;_4AO_4_20mA_9
+;_QW 1;;Output word 1;%QW109;_4AO_4_20mA_10
+;_QW 2;;Output word 2;%QW110;_4AO_4_20mA_10
+;_QW 3;;Output word 3;%QW111;_4AO_4_20mA_10
+;_QW 4;;Output word 4;%QW112;_4AO_4_20mA_10
+;_QW 1;;Output word 1;%QW113;_4AO_4_20mA_11
+;_QW 2;;Output word 2;%QW114;_4AO_4_20mA_11
+;_QW 3;;Output word 3;%QW115;_4AO_4_20mA_11
+;_QW 4;;Output word 4;%QW116;_4AO_4_20mA_11
+;_QW 1;;Output word 1;%QW117;_4AO_4_20mA_12
+;_QW 2;;Output word 2;%QW118;_4AO_4_20mA_12
+;_QW 3;;Output word 3;%QW119;_4AO_4_20mA_12
+;_QW 4;;Output word 4;%QW120;_4AO_4_20mA_12
+;_QW 1;;Output word 1;%QW121;_4AO_4_20mA_13
+;_QW 2;;Output word 2;%QW122;_4AO_4_20mA_13
+;_QW 3;;Output word 3;%QW123;_4AO_4_20mA_13
+;_QW 4;;Output word 4;%QW124;_4AO_4_20mA_13

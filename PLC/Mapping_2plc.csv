@@ -1,0 +1,75 @@
+Parent;OrderNumber;ModuleName;ChannelName;ParameterId;Description;Unit;DataType;IecAddress;VariableName;CreateVariable
+;;;K-BUS diagnostics;83886080;K-BUS diagnostics;;BYTE;%IB0;;False
+;;;K-BUS error;83886080.error;K-BUS general error flag;;BOOL;%IX0.0;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216;Input Channels;;WORD;%IW1;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit1.Component_1;Digital input;;BOOL;%IX2.0;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit2.Component_2;Digital input;;BOOL;%IX2.1;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit3.Component_3;Digital input;;BOOL;%IX2.2;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit4.Component_4;Digital input;;BOOL;%IX2.3;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit5.Component_5;Digital input;;BOOL;%IX2.4;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit6.Component_6;Digital input;;BOOL;%IX2.5;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit7.Component_7;Digital input;;BOOL;%IX2.6;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit8.Component_8;Digital input;;BOOL;%IX2.7;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit9.Component_9;Digital input;;BOOL;%IX3.0;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit10.Component_10;Digital input;;BOOL;%IX3.1;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit11.Component_11;Digital input;;BOOL;%IX3.2;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit12.Component_12;Digital input;;BOOL;%IX3.3;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit13.Component_13;Digital input;;BOOL;%IX3.4;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit14.Component_14;Digital input;;BOOL;%IX3.5;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit15.Component_15;Digital input;;BOOL;%IX3.6;;False
+Kbus;0750-1405;_16DI_24_VDC_3ms;_IN;16777216.InputField.Channel1.Bit16.Component_16;Digital input;;BOOL;%IX3.7;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648;Output Channels;;WORD;%QW0;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit1.Component_1;Digital output;;BOOL;%QX0.0;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit2.Component_2;Digital output;;BOOL;%QX0.1;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit3.Component_3;Digital output;;BOOL;%QX0.2;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit4.Component_4;Digital output;;BOOL;%QX0.3;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit5.Component_5;Digital output;;BOOL;%QX0.4;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit6.Component_6;Digital output;;BOOL;%QX0.5;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit7.Component_7;Digital output;;BOOL;%QX0.6;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit8.Component_8;Digital output;;BOOL;%QX0.7;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit9.Component_9;Digital output;;BOOL;%QX1.0;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit10.Component_10;Digital output;;BOOL;%QX1.1;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit11.Component_11;Digital output;;BOOL;%QX1.2;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit12.Component_12;Digital output;;BOOL;%QX1.3;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit13.Component_13;Digital output;;BOOL;%QX1.4;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit14.Component_14;Digital output;;BOOL;%QX1.5;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit15.Component_15;Digital output;;BOOL;%QX1.6;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A;_OUT;50331648.OutputField.Channel1.Bit16.Component_16;Digital output;;BOOL;%QX1.7;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648;Output Channels;;WORD;%QW1;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit1.Component_1;Digital output;;BOOL;%QX2.0;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit2.Component_2;Digital output;;BOOL;%QX2.1;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit3.Component_3;Digital output;;BOOL;%QX2.2;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit4.Component_4;Digital output;;BOOL;%QX2.3;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit5.Component_5;Digital output;;BOOL;%QX2.4;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit6.Component_6;Digital output;;BOOL;%QX2.5;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit7.Component_7;Digital output;;BOOL;%QX2.6;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit8.Component_8;Digital output;;BOOL;%QX2.7;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit9.Component_9;Digital output;;BOOL;%QX3.0;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit10.Component_10;Digital output;;BOOL;%QX3.1;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit11.Component_11;Digital output;;BOOL;%QX3.2;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit12.Component_12;Digital output;;BOOL;%QX3.3;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit13.Component_13;Digital output;;BOOL;%QX3.4;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit14.Component_14;Digital output;;BOOL;%QX3.5;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit15.Component_15;Digital output;;BOOL;%QX3.6;;False
+Kbus;0750-1504;_16DO_24_VDC_0_5A_1;_OUT;50331648.OutputField.Channel1.Bit16.Component_16;Digital output;;BOOL;%QX3.7;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 1;16777216;Input value signed 1;;INT;%IW2;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 2;16777217;Input value signed 2;;INT;%IW3;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 3;16777218;Input value signed 3;;INT;%IW4;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 4;16777219;Input value signed 4;;INT;%IW5;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 5;16777220;Input value signed 5;;INT;%IW6;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 6;16777221;Input value signed 6;;INT;%IW7;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 7;16777222;Input value signed 7;;INT;%IW8;;False
+Kbus;0750-0496;_8AI_0_4_20mA_SE;_PW 8;16777223;Input value signed 8;;INT;%IW9;;False
+
+# You can modify the data of all columns. However, the 'ChannelName' column is intended to be a hint only and gets ignored during import!
+# 'Parent' contains the name of the parent module/device. This column is NOT intended to be modified!
+# 'OrderNumber' contains the full order number of the device. It can be found in the Device Catalog.
+# 'ModuleName' contains the name of the module for the variable that is defined in the column 'VariableName'.
+# 'ChannelName' contains the human readable name of the channel. It is used only as hint and ignored during import! The important value is defined in column 'ParameterId'.
+# 'ParameterId' contains the identifier of the channel (parameter) for the variable that is defined in the column 'VariableName'.
+# 'Description' contains a human readable description for the variable.
+# 'Unit' contains the unit for the variable.
+# 'DataType' contains the data type (such as UINT) for the variable.
+# 'IecAddress' contains the IEC address. Use an empty string to set the default address.
+# 'VariableName' contains the name of the variable.
+# 'CreateVariable' contains the boolean to determine whether a new variable should be created or the channel is mapped on an existing variable.
